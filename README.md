@@ -20,16 +20,18 @@ This repository contains implementations of three fundamental computer vision al
 .
 ├── README.md
 ├── .gitignore
-├── harris_corner_detection.py    # Question 1: Harris Corner Detection
-├── stereo_reconstruction.py      # Question 2: Stereo 3D Reconstruction
-├── epipolar_geometry.py          # Question 3: Epipolar Lines Visualization
-├── images/                       # Directory for test images (not included in repo)
-│   ├── Question 1/               # Images for Harris Corner Detection
-│   └── Question 2 and 3 Images/  # Images for Stereo Reconstruction and Epipolar Geometry
-└── results/                      # Output directory for generated images
-    ├── harris/                   # Harris corner detection results
-    ├── stereo/                   # Stereo reconstruction results
-    └── epipolar/                 # Epipolar geometry results
+├── requirements.txt               # Project dependencies
+├── inference.py                   # Command-line interface for running algorithms
+├── harris_corner_detection.py     # Question 1: Harris Corner Detection
+├── stereo_reconstruction.py       # Question 2: Stereo 3D Reconstruction
+├── epipolar_geometry.py           # Question 3: Epipolar Lines Visualization
+├── images/                        # Directory for test images (not included in repo)
+│   ├── Question 1/                # Images for Harris Corner Detection
+│   └── Question 2 and 3 Images/   # Images for Stereo Reconstruction and Epipolar Geometry
+└── results/                       # Output directory for generated images
+    ├── harris/                    # Harris corner detection results
+    ├── stereo/                    # Stereo reconstruction results
+    └── epipolar/                  # Epipolar geometry results
 ```
 
 ## Setup and Requirements
