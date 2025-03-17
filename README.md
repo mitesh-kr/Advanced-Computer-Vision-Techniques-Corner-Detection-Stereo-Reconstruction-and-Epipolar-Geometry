@@ -37,7 +37,10 @@ This repository contains implementations of three fundamental computer vision al
 Install dependencies using:
 
 ```bash
-pip install numpy opencv-python matplotlib pillow
+git clone https://github.com/mitesh-kr/Advanced-Computer-Vision-Techniques-Corner-Detection-Stereo-Reconstruction-and-Epipolar-Geometry.git
+cd Advanced-Computer-Vision-Techniques-Corner-Detection-Stereo-Reconstruction-and-Epipolar-Geometry
+pip install -r requirements.txt
+
 ```
 
 ### Dataset
